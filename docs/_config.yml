@@ -28,9 +28,15 @@ twitter_username: s_kaplar
 github_username:  skaplar
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+remote_theme: jekyll/minima
+
+ plugins:
+  jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
