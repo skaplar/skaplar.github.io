@@ -34,7 +34,7 @@ github_username:  skaplar
 
 remote_theme: jekyll/minima
 
- plugins:
+plugins:
   jekyll-remote-theme
 
 
