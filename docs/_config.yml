@@ -21,11 +21,11 @@
 title: Sebastijan's homepage
 email: sebastijan.kaplar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  First description
+  Software Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: s_kaplar
+github_username:  skaplar
 
 # Build settings
 theme: minima
@@ -51,3 +51,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+google_analytics: G-7SPLKE1Z2H

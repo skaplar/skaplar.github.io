@@ -1,7 +1,7 @@
 ---
-layout: PAGE
+layout: page
 title: Welcome
-permalink: /welcome
+permalink: /welcomex
 ---
 
-Welcome.
+Thinking...

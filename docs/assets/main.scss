@@ -1,0 +1,24 @@
+---
+---
+
+@import "minima";
+
+.post-content p {
+    text-align: justify;
+    hyphens: auto; /* This will auto hyphenate words if necessary */
+}
+
+// .highlight {
+//     font-size: 0.9em;
+//     background-color: #f5f5f5; /* A light gray, adjust to your preference */
+
+// }
+
+// .highlighter-rouge .highlight {
+//     // background: #f5f5f5;
+//     font-size: 0.9em;
+// }
+.wrapper {
+    max-width: 50%; /* Adjust this to your preference */
+    margin: 0 auto; /* This centers the content */
+}
