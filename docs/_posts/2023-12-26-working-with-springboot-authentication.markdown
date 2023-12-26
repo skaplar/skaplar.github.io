@@ -2,7 +2,7 @@
 layout: post
 title:  "Working with multiple authentication providers and managers in Spring Boot"
 date:   2023-12-26 11:15:01 +0100
-categories: jekyll update
+categories: java spring
 ---
 
 In modern web applications, particularly within microservice architectures, it's common to have external services and identity providers interacting with your application or service. Did you know that you can adjust your Spring Boot application so that you can add or remove support for those parties without much hassle? In this article I want to explore the idea and see what can we do to build around it.
