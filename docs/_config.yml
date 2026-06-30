@@ -33,6 +33,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+header_pages:
+  - articles.markdown
+  - about.markdown
+  - research.markdown
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
