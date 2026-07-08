@@ -247,25 +247,6 @@ The LLM is important, of course. But the product is the loop around it.
 
 That loop is why the app can later support RSS feeds, pages, YouTube videos, YouTube channels, newsletters, schedules, fallback behavior, retries, and paid-plan limits without every feature becoming a new one-off path.
 
-## What I Would Do Differently Now
-
-I would introduce a clearer ingestion event model earlier.
-
-The current model preserves the important product objects: sources, snapshots, posts, fetch runs, newsletters, and summaries. That is enough to build the core experience. But when a system depends on external APIs, background jobs, content extraction, and fallback behavior, it is useful to have a first-class record of what happened during ingestion.
-
-Not just "there is no new summary," but why:
-
-- the source had no new items,
-- the page content did not change,
-- the transcript provider was rate limited,
-- metadata fallback was used,
-- OpenAI failed transiently,
-- or a duplicate was skipped.
-
-Some of that exists in logs and service results, but I would make it more deliberate sooner.
-
-That is one of the recurring themes in this project: the hard part is rarely calling an AI model. The hard part is making the rest of the product honest about what happened.
-
 ## Next
 
 The next article will go deeper into the data model: why `Project`, `Source`, `Snapshot`, `Post`, `Newsletter`, `FetchRun`, and `YoutubeVideoSummary` ended up as separate concepts, and what each one buys you when the product becomes more than a prototype.

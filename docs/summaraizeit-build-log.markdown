@@ -25,7 +25,7 @@ The series is for anyone interested in the technical side of building a real AI 
     </div>
     <div>
       <strong>Latest article</strong>
-      <span>Part 1: from information overload to a daily AI digest</span>
+      <span>Part 2: the data model behind SummarAIzeIT</span>
     </div>
   </div>
 </div>
@@ -41,8 +41,8 @@ The list below is the publishing direction. I will add new articles as each part
     <p>The product problem, the first architecture boundary, and why the app is more than a scrape-and-summarize script.</p>
   </article>
   <article class="series-step">
-    <span class="series-status upcoming">Upcoming</span>
-    <h2>2. The data model behind SummarAIzeIT</h2>
+    <span class="series-status published">Published</span>
+    <h2><a href="{% post_url 2026-07-08-the-data-model-behind-summaraizeit %}">2. The data model behind SummarAIzeIT</a></h2>
     <p>Projects, sources, snapshots, posts, newsletters, fetch runs, and cached YouTube summaries.</p>
   </article>
   <article class="series-step">
