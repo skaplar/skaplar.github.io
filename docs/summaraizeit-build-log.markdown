@@ -25,7 +25,7 @@ The series is for anyone interested in the technical side of building a real AI 
     </div>
     <div>
       <strong>Latest article</strong>
-      <span>Part 2: the data model behind SummarAIzeIT</span>
+      <span>Part 3: source ingestion without one giant service object</span>
     </div>
   </div>
 </div>
@@ -46,8 +46,8 @@ The list below is the publishing direction. I will add new articles as each part
     <p>Projects, sources, snapshots, posts, newsletters, fetch runs, and cached YouTube summaries.</p>
   </article>
   <article class="series-step">
-    <span class="series-status upcoming">Upcoming</span>
-    <h2>3. Designing ingestion around strategy objects</h2>
+    <span class="series-status published">Published</span>
+    <h2><a href="{% post_url 2026-08-03-designing-source-ingestion-without-one-giant-service-object %}">3. Designing source ingestion without one giant service object</a></h2>
     <p>How source-specific fetchers keep RSS, pages, YouTube videos, and channels out of one giant service object.</p>
   </article>
   <article class="series-step">
